@@ -1,0 +1,16 @@
+{% import "components/paginator.html" as paginator with context %}
+{% extends "layout/html5.html" %}
+{% block body %}
+{{ set(UiContext, 'tdoc', tdoc) }}
+{{ set(UiContext, 'tsdoc', tsdoc) }}
+{% set type = 'homework' if tdoc.rule == 'homework' else 'contest' %}
+
+<div class="row" style="margin: 20px auto;">
+  <h1 class="text-center">{{ tdoc.title }}</h1>
+</div>
+<div class="row"><div class="medium-12 columns scoreboard--{{ tdoc.rule }}">
+  <div class="section visible">
+    {% include "partials/public_scoreboard.html" %}
+  </div>
+</div></div>
+{% endblock %}

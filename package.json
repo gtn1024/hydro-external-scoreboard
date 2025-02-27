@@ -1,0 +1,12 @@
+{
+  "name": "hydro-external-scoreboard",
+  "version": "1.0.0",
+  "description": "Provide External Scoreboard for Hydro",
+  "main": "index.js",
+  "keywords": ["hydrooj", "scoreboard", "ACM", "ICPC", "OJ"],
+  "author": "gtn1024 <gtn1024@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "hydrooj": "^4.19.1"
+  }
+}

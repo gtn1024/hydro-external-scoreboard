@@ -1,6 +1,6 @@
 {
   "name": "hydro-external-scoreboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide External Scoreboard for Hydro",
   "main": "index.js",
   "keywords": ["hydrooj", "scoreboard", "ACM", "ICPC", "OJ"],
